@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294E3D412AFECCFF0019A55F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D402AFECCFF0019A55F /* Player.swift */; };
+		294E3D442AFECD3D0019A55F /* Player1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D432AFECD3D0019A55F /* Player1.swift */; };
+		294E3D462AFECDA00019A55F /* Player2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D452AFECDA00019A55F /* Player2.swift */; };
+		294E3D482AFED0850019A55F /* VariableGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D472AFED0850019A55F /* VariableGenerator.swift */; };
+		294E3D4A2AFED7910019A55F /* ExtendedEuclidean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D492AFED7910019A55F /* ExtendedEuclidean.swift */; };
 		2993ED0C2AFECB700077708E /* CryptoSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993ED0B2AFECB700077708E /* CryptoSimulationApp.swift */; };
 		2993ED0E2AFECB700077708E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993ED0D2AFECB700077708E /* ContentView.swift */; };
 		2993ED102AFECB710077708E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2993ED0F2AFECB710077708E /* Assets.xcassets */; };
 		2993ED132AFECB710077708E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2993ED122AFECB710077708E /* Preview Assets.xcassets */; };
+		29A5C1252B142BAF00348C3B /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C1242B142BAF00348C3B /* Simulation.swift */; };
+		29A5C1272B14344A00348C3B /* Player10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C1262B14344A00348C3B /* Player10.swift */; };
+		29A5C12A2B1434E500348C3B /* Player3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C1292B1434E500348C3B /* Player3.swift */; };
+		29A5C12C2B1434F300348C3B /* Player4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C12B2B1434F300348C3B /* Player4.swift */; };
+		29A5C12E2B1434FB00348C3B /* Player5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C12D2B1434FB00348C3B /* Player5.swift */; };
+		29A5C1302B14350400348C3B /* Player6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C12F2B14350400348C3B /* Player6.swift */; };
+		29A5C1342B144A5D00348C3B /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C1332B144A5D00348C3B /* ResultView.swift */; };
+		29A5C1362B144A9000348C3B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C1352B144A9000348C3B /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294E3D402AFECCFF0019A55F /* Player.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; tabWidth = 2; };
+		294E3D432AFECD3D0019A55F /* Player1.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Player1.swift; sourceTree = "<group>"; tabWidth = 2; };
+		294E3D452AFECDA00019A55F /* Player2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player2.swift; sourceTree = "<group>"; };
+		294E3D472AFED0850019A55F /* VariableGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableGenerator.swift; sourceTree = "<group>"; };
+		294E3D492AFED7910019A55F /* ExtendedEuclidean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedEuclidean.swift; sourceTree = "<group>"; };
 		2993ED082AFECB700077708E /* CryptoSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2993ED0B2AFECB700077708E /* CryptoSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSimulationApp.swift; sourceTree = "<group>"; };
 		2993ED0D2AFECB700077708E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2993ED0F2AFECB710077708E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2993ED122AFECB710077708E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29A5C1242B142BAF00348C3B /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		29A5C1262B14344A00348C3B /* Player10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player10.swift; sourceTree = "<group>"; };
+		29A5C1292B1434E500348C3B /* Player3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player3.swift; sourceTree = "<group>"; };
+		29A5C12B2B1434F300348C3B /* Player4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player4.swift; sourceTree = "<group>"; };
+		29A5C12D2B1434FB00348C3B /* Player5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player5.swift; sourceTree = "<group>"; };
+		29A5C12F2B14350400348C3B /* Player6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player6.swift; sourceTree = "<group>"; };
+		29A5C1332B144A5D00348C3B /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		29A5C1352B144A9000348C3B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +58,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294E3D422AFECD070019A55F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29A5C1282B1434D200348C3B /* Players */,
+				29A5C1242B142BAF00348C3B /* Simulation.swift */,
+				294E3D492AFED7910019A55F /* ExtendedEuclidean.swift */,
+				294E3D472AFED0850019A55F /* VariableGenerator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2993ECFF2AFECB700077708E = {
 			isa = PBXGroup;
 			children = (
 				2993ED0A2AFECB700077708E /* CryptoSimulation */,
 				2993ED092AFECB700077708E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		2993ED092AFECB700077708E /* Products */ = {
 			isa = PBXGroup;
@@ -52,7 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				2993ED0B2AFECB700077708E /* CryptoSimulationApp.swift */,
-				2993ED0D2AFECB700077708E /* ContentView.swift */,
+				294E3D422AFECD070019A55F /* Model */,
+				29DAEE802B0D6E200079221B /* View */,
 				2993ED0F2AFECB710077708E /* Assets.xcassets */,
 				2993ED112AFECB710077708E /* Preview Content */,
 			);
@@ -65,6 +105,31 @@
 				2993ED122AFECB710077708E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29A5C1282B1434D200348C3B /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				294E3D402AFECCFF0019A55F /* Player.swift */,
+				294E3D432AFECD3D0019A55F /* Player1.swift */,
+				294E3D452AFECDA00019A55F /* Player2.swift */,
+				29A5C1292B1434E500348C3B /* Player3.swift */,
+				29A5C12B2B1434F300348C3B /* Player4.swift */,
+				29A5C12D2B1434FB00348C3B /* Player5.swift */,
+				29A5C12F2B14350400348C3B /* Player6.swift */,
+				29A5C1262B14344A00348C3B /* Player10.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		29DAEE802B0D6E200079221B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2993ED0D2AFECB700077708E /* ContentView.swift */,
+				29A5C1332B144A5D00348C3B /* ResultView.swift */,
+				29A5C1352B144A9000348C3B /* TabBarView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +202,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A5C1252B142BAF00348C3B /* Simulation.swift in Sources */,
+				294E3D4A2AFED7910019A55F /* ExtendedEuclidean.swift in Sources */,
 				2993ED0E2AFECB700077708E /* ContentView.swift in Sources */,
+				294E3D462AFECDA00019A55F /* Player2.swift in Sources */,
+				29A5C1302B14350400348C3B /* Player6.swift in Sources */,
+				29A5C1342B144A5D00348C3B /* ResultView.swift in Sources */,
+				294E3D412AFECCFF0019A55F /* Player.swift in Sources */,
+				294E3D482AFED0850019A55F /* VariableGenerator.swift in Sources */,
+				29A5C12E2B1434FB00348C3B /* Player5.swift in Sources */,
+				29A5C12C2B1434F300348C3B /* Player4.swift in Sources */,
+				29A5C12A2B1434E500348C3B /* Player3.swift in Sources */,
+				294E3D442AFECD3D0019A55F /* Player1.swift in Sources */,
+				29A5C1272B14344A00348C3B /* Player10.swift in Sources */,
+				29A5C1362B144A9000348C3B /* TabBarView.swift in Sources */,
 				2993ED0C2AFECB700077708E /* CryptoSimulationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
