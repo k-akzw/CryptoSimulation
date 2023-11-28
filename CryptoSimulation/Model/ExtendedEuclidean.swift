@@ -20,25 +20,21 @@ class ExtendedEuclidean {
 
   // MARK: - Initialization
 
-  init(p: Int = 1, q: Int = 1, n: Int = 1, phiN: Int = 1, d: Int = 1, e: Int = 1) {
-    self.p = p
-    self.q = q
-    self.n = n
-    self.phiN = phiN
-    self.d = d
-    self.e = e
-
+  init() {
     self.setup()
   }
 
   // MARK: - Public Functions
 
+  // setup the variables
   func setup() {
     p = VariableGenerator.shared.getPrimeNumber()
     q = VariableGenerator.shared.getPrimeNumber()
     n = p*q
     phiN = (p-1)*(q-1)
-    d = VariableGenerator.shared.getPrimeNumber()
+    repeat {
+      d = VariableGenerator.shared.getPrimeNumber()
+    } while d == p || d == q
     e = getInverse(of: d, in: phiN)
   }
 
@@ -65,6 +61,8 @@ class ExtendedEuclidean {
       t1 = temp
     }
 
+    // make t2 positive number by keep adding @phiN
+    // since everything is mod @phiN
     while t2 <= 0 {
       t2 += phiN
     }

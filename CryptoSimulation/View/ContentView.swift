@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+  
+  // MARK: - Properties
+  
+  @State private var selectedTab: Tab = .result
 
   var body: some View {
     VStack {
-      List(Simulation.shared.results, id: \.self) { result in
-        ResultCell(result: result)
+      switch selectedTab {
+      case .result:
+        ResultView()
+      case .variables:
+        VariableView()
+      case .amount:
+        BalanceView()
       }
+      
+      TabBarView(selectedTab: $selectedTab)
     }
   }
 }

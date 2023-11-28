@@ -26,8 +26,6 @@ struct ResultCell: View {
   var body: some View {
     VStack {
       HStack {
-        Text("Decrypted Text")
-        Spacer()
         Text(result.decrypted)
       }
 
@@ -35,6 +33,12 @@ struct ResultCell: View {
         Text("Sender")
         Spacer()
         Text(result.sender)
+      }
+      
+      HStack {
+        Text("Receiver")
+        Spacer()
+        Text(result.receiver)
       }
 
       HStack {

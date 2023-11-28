@@ -17,6 +17,7 @@ class Player {
   private var phiN: Int
   var n: Int
   var e: Int
+  var balance: Double
   var name: String
 
   private let symbols: [Character:String] = [".":"10", ",":"11", "-":"12", " ":"13"]
@@ -31,6 +32,7 @@ class Player {
     self.phiN = extendedEuclidean.phiN
     self.n = extendedEuclidean.n
     self.e = extendedEuclidean.e
+    self.balance = 100.0
     self.name = name
   }
 
@@ -46,6 +48,8 @@ class Player {
     e = extendedEuclidean.e
   }
 
+  // encode and encrypt @message
+  // return cipher text as list of 8 digits
   func tx(message: String) -> [Int] {
     print(message)
     let encodedMessage = encode(message)
@@ -56,6 +60,7 @@ class Player {
     return cipherText
   }
 
+  // validate the transaction by decrypting @cipherText
   func validate(cipherText: [Int], e: Int, n: Int) -> String {
     var decryptedMessage = [String]()
     var temp = ""
@@ -73,6 +78,21 @@ class Player {
     }
 
     return decode(temp)
+  }
+  
+  func reduceBalance(by amount: String) -> Bool {
+    if let doubleAmount = Double(amount) {
+      if doubleAmount > balance {
+        return false
+      }
+      balance -= doubleAmount
+      return true
+    }
+    return false
+  }
+  
+  func addBalance(of amount: Double) {
+    balance += amount
   }
 
   // MARK: - Private Functions

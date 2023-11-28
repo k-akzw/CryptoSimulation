@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14827E142B15133300B5C70E /* VariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14827E132B15133300B5C70E /* VariableView.swift */; };
+		14827E162B15134200B5C70E /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14827E152B15134200B5C70E /* BalanceView.swift */; };
+		14827E182B151B3E00B5C70E /* Player7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14827E172B151B3E00B5C70E /* Player7.swift */; };
+		14827E1A2B151B4F00B5C70E /* Player8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14827E192B151B4F00B5C70E /* Player8.swift */; };
+		14827E1C2B151B6300B5C70E /* Player9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14827E1B2B151B6300B5C70E /* Player9.swift */; };
 		294E3D412AFECCFF0019A55F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D402AFECCFF0019A55F /* Player.swift */; };
 		294E3D442AFECD3D0019A55F /* Player1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D432AFECD3D0019A55F /* Player1.swift */; };
 		294E3D462AFECDA00019A55F /* Player2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E3D452AFECDA00019A55F /* Player2.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14827E132B15133300B5C70E /* VariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableView.swift; sourceTree = "<group>"; };
+		14827E152B15134200B5C70E /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		14827E172B151B3E00B5C70E /* Player7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player7.swift; sourceTree = "<group>"; };
+		14827E192B151B4F00B5C70E /* Player8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player8.swift; sourceTree = "<group>"; };
+		14827E1B2B151B6300B5C70E /* Player9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player9.swift; sourceTree = "<group>"; };
 		294E3D402AFECCFF0019A55F /* Player.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; tabWidth = 2; };
 		294E3D432AFECD3D0019A55F /* Player1.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Player1.swift; sourceTree = "<group>"; tabWidth = 2; };
 		294E3D452AFECDA00019A55F /* Player2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player2.swift; sourceTree = "<group>"; };
@@ -117,6 +127,9 @@
 				29A5C12B2B1434F300348C3B /* Player4.swift */,
 				29A5C12D2B1434FB00348C3B /* Player5.swift */,
 				29A5C12F2B14350400348C3B /* Player6.swift */,
+				14827E172B151B3E00B5C70E /* Player7.swift */,
+				14827E192B151B4F00B5C70E /* Player8.swift */,
+				14827E1B2B151B6300B5C70E /* Player9.swift */,
 				29A5C1262B14344A00348C3B /* Player10.swift */,
 			);
 			path = Players;
@@ -127,6 +140,8 @@
 			children = (
 				2993ED0D2AFECB700077708E /* ContentView.swift */,
 				29A5C1332B144A5D00348C3B /* ResultView.swift */,
+				14827E132B15133300B5C70E /* VariableView.swift */,
+				14827E152B15134200B5C70E /* BalanceView.swift */,
 				29A5C1352B144A9000348C3B /* TabBarView.swift */,
 			);
 			path = View;
@@ -202,20 +217,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14827E182B151B3E00B5C70E /* Player7.swift in Sources */,
 				29A5C1252B142BAF00348C3B /* Simulation.swift in Sources */,
 				294E3D4A2AFED7910019A55F /* ExtendedEuclidean.swift in Sources */,
 				2993ED0E2AFECB700077708E /* ContentView.swift in Sources */,
 				294E3D462AFECDA00019A55F /* Player2.swift in Sources */,
 				29A5C1302B14350400348C3B /* Player6.swift in Sources */,
+				14827E1C2B151B6300B5C70E /* Player9.swift in Sources */,
 				29A5C1342B144A5D00348C3B /* ResultView.swift in Sources */,
 				294E3D412AFECCFF0019A55F /* Player.swift in Sources */,
+				14827E162B15134200B5C70E /* BalanceView.swift in Sources */,
 				294E3D482AFED0850019A55F /* VariableGenerator.swift in Sources */,
+				14827E1A2B151B4F00B5C70E /* Player8.swift in Sources */,
 				29A5C12E2B1434FB00348C3B /* Player5.swift in Sources */,
 				29A5C12C2B1434F300348C3B /* Player4.swift in Sources */,
 				29A5C12A2B1434E500348C3B /* Player3.swift in Sources */,
 				294E3D442AFECD3D0019A55F /* Player1.swift in Sources */,
 				29A5C1272B14344A00348C3B /* Player10.swift in Sources */,
 				29A5C1362B144A9000348C3B /* TabBarView.swift in Sources */,
+				14827E142B15133300B5C70E /* VariableView.swift in Sources */,
 				2993ED0C2AFECB700077708E /* CryptoSimulationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

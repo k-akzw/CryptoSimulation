@@ -8,9 +8,9 @@
 import SwiftUI
 
 enum Tab: String, CaseIterable {
-  case result = "Result"
-  case variables = "Variables"
-  case amount = "Amount"
+  case result = "house"
+  case variables = "info.circle"
+  case amount = "dollarsign.circle"
 }
 
 struct TabBarView: View {
